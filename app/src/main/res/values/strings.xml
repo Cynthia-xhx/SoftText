@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name"><font color = "#FFFFFF">全景重庆旅游平台</font></string>
+
+    <!-- 项目启动加载的默认风景数据源 -->
+    <string-array name="default_sight_names">
+        <item>洪崖洞</item>
+        <item>解放碑</item>
+    </string-array>
+
+    <string-array name="default_sight_descriptions">
+        <item>洪崖洞位于重庆市渝中区嘉陵江滨江路88号，地处长江和嘉陵江两江交汇的滨江地带。</item>
+        <item>解放碑位于重庆市渝中区，是抗战胜利纪功碑暨人民解放纪念碑，简称“解放碑”。</item>
+    </string-array>
+
+    <integer-array name="default_sight_picIds">
+        <item>@drawable/hongyadong</item>
+        <item>@drawable/jiefangbei</item>
+    </integer-array>
+
+
+    <!-- GridView视图加载的风景数据源 -->
+    <string-array name="sight_names">
+        <item>观音桥</item>
+        <item>朝天门</item>
+        <item>八一路好吃街</item>
+        <item>鸿恩寺</item>
+        <item>鹅岭贰厂</item>
+        <item>李子坝</item>
+    </string-array>
+
+    <string-array name="sight_descriptions">
+        <item>观音桥一般指观音桥商圈都市旅游区，位于重庆市江北区观音桥街道及华新街区域。</item>
+        <item>朝天门位于重庆市渝中区渝中半岛的嘉陵江与长江交汇处，是重庆“九开八闭”十七座古城门之一，也是其中规模最大的一所古城门，为古代重庆交通枢纽和重要埠口。</item>
+        <item>八一路好吃街是重庆主城区人气比较旺的好吃街，地处重庆市中心最繁华的解放碑商业区内，有一个闻名遐迩的名字叫“好吃街”，堪称是吃货的天堂。</item>
+        <item>鸿恩寺位于嘉陵江北岸，是信佛者讲恩德之地，故而得名鸿恩寺。</item>
+        <item>鹅岭贰厂文创公园是位于重庆市渝中区鹅岭正街1号的地标。所在地是重庆渝中半岛的最高处，可以同时看到长江和嘉陵江风光。</item>
+        <item>李子坝位于重庆市渝中区李子坝正街39号，是中国国内第一座与商住楼共建共存的跨座式单轨高架车站</item>
+    </string-array>
+
+    <integer-array name="sight_picIds">
+        <item>@drawable/guanyinqiao</item>
+        <item>@drawable/chaotianmen</item>
+        <item>@drawable/bayiluhaochijie</item>
+        <item>@drawable/hongensi</item>
+        <item>@drawable/elingerchang</item>
+        <item>@drawable/liziba</item>
+    </integer-array>
+</resources>

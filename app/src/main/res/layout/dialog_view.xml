@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/dialog_view_img"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/hongyadong"
+        android:scaleType="centerCrop"
+        />
+
+    <EditText
+        android:id="@+id/dialog_view_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="风景名称"
+        />
+
+    <EditText
+        android:id="@+id/dialog_view_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="风景简介"
+        />
+
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        />
+
+</LinearLayout>
